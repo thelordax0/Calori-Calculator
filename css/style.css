@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   
+    font-family: 'Sofia Sans', sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    /* background-color: aquamarine; */
+    
+}
+
+.header{
+    text-align: center;
+}
+.card-container{
+    /* background-color: rgb(39, 163, 148); */
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+.card {
+    margin: 10px;
+    max-width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    text-align: center;
+    background-color: #5da996;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    /* font-size: 16px; */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  #calculate-btn{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 1.4rem
+  }
+
+  #result{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    padding:2rem 1rem 2rem 1rem;
+    text-align: center;
+  }
+ 
+  
+ 
+  
